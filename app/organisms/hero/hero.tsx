@@ -1,5 +1,6 @@
 // src/components/organisms/Hero/Hero.jsx
 import Button from '../../atoms/button/button';
+import Link from 'next/link';
 
 const Hero = () => {
   return (
@@ -14,8 +15,12 @@ const Hero = () => {
           Building digital experiences as unique as you are.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button size="large">Contact Me</Button>
-            <Button variant="outline" size="large">Browse Portfolio</Button>
+            <Link href="/contact-me" className="inline-flex cursor-pointer">
+              <Button size="large">Contact Me</Button>
+            </Link>
+            <Link href="/browse-portfolio" className="inline-flex cursor-pointer">
+              <Button variant="outline" size="large">Browse Portfolio</Button>
+            </Link>
           </div>
         </div>
       </div>
