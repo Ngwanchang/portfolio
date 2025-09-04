@@ -27,7 +27,7 @@ const Footer = () => {
                   className="text-gray-400 hover:text-orange-500 transition-colors duration-200"
                   aria-label={social.name}
                 >
-                  <div className="w-12 h-12 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-orange-100 transition-colors duration-200">                    
+                  <div className="w-20 h-14 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-orange-100 transition-colors duration-200">                    
                     <span className="text-2xl">{social.icon}</span>
                   </div>
                 </a>
